@@ -1,7 +1,7 @@
 import AbImg from "../assets/images/ab-img.png"
 import AbsImg from "../assets/images/abs-img.png"
 import MgImg from "../assets/images/mg-img.png"
-import GWImg from "../assets/images/GW-img.png"
+import GWImg from "../assets/images/gw-img.png"
 
 const CaseStudies = () => {
   return (
