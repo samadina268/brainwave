@@ -1,0 +1,475 @@
+/* STYLE HEADER */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@font-face{
+    font-family: gilroy-regular;
+    src: url( "./fonts/Gilroy-Regular.ttf");
+}
+@font-face{
+    font-family: gilroy-Semibold;
+    src: url( "./fonts/Gilroy-SemiBold.ttf");
+}
+@font-face{
+    font-family: gilroy-bold;
+    src: url( "./fonts/Gilroy-Bold.ttf");
+}
+
+
+
+.header-logo{
+ font-size: 24px;
+ letter-spacing: -0.13px;
+ color: #161C2D;
+    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+}
+
+.nav-list{
+    font-family: gilroy-bold;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+    font-size: 15px;
+    color: #161C2D;
+}
+
+.nav-btn{
+    background-color: #473BF0;
+    color: white;
+    font-size: 17px;
+    padding-bottom: 0.5rem;
+}
+
+/* Hero section */
+.hero-heading{
+    color: #F64B4B;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: gilroy-Semibold;
+}
+
+.hero-h1{
+    font-family: gilroy-bold;
+    color: #161C2D;
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    max-width: 541px;
+    margin-top: 1rem;
+
+
+}
+
+.hero-note{
+    margin-top: 1rem;
+     color: #161C2D;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: gilroy-Semibold;
+    max-width: 450px;
+    opacity: 70%;
+}
+
+/* for but the header and hero section background */
+.land-Bg{
+    background-image: url('./assets/images/heroBg.png');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+
+
+
+/* small screen */
+@media (max-width: 768px) {
+  
+ .hero-heading{
+  font-size: 10px;
+ }
+  .hero-h1 {
+    font-size: 25px;
+    max-width: 100%;
+  }
+
+  .hero-note {
+    font-size: 13px;
+    max-width: 100%; 
+  }
+  .hero-btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .hero-main{
+    width: 95% !important;
+  }
+
+}
+
+
+/* our Services section */
+
+.Os-headline{
+   font-family: gilroy-Semibold;
+   color: #F64B4B;
+   font-size: 13px;
+   font-weight: 700;
+}
+
+.Os-h1{
+    max-width: 521px;
+   color: #161C2D;
+   font-size: 36px;
+   font-weight: 700;
+}
+
+.Os-box1{
+    background-color: #68D585;
+   
+}
+.Os-box2{
+    background-color: #473BF0;
+ 
+}
+.Os-box3{
+    background-color: #F64B4B;
+    
+}
+
+
+.Os-h3{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -0.5;
+    font-family:  gilroy-bold;
+}
+
+.Os-note{
+     color: white;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: -0.5;
+    font-family:  gilroy-regular;
+    max-width: 296px;
+    opacity: 65%;
+    margin: auto;
+}
+
+.Os-a{
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: gilroy-bold;
+    
+}
+
+/* os part 2 */
+
+.Os-part2-note{
+    font-size: 24px;
+    font-weight: 700;
+   font-family:  gilroy-bold;
+   color: #161C2D;
+
+}
+
+.Os-part2-footer{
+  font-size: 17px;
+    font-weight: 400;
+   font-family:  gilroy-regular;
+   color: #161C2D;
+}
+
+hr{
+  width: 75%;
+}
+
+
+@media (min-width: 1000px) { 
+  .Os-box1, .Os-box2, .Os-box3  {
+     width: 30% !important;
+     justify-content: center;
+  }
+}
+
+@media (max-width: 768px) { 
+  .Os-h1 {
+    font-size: 25px;
+  }
+
+  .Os-main-box {
+    width: 90% !important;
+  }
+  
+  .Os-box1, .Os-box2, .Os-box3 {
+    width: 100% !important; 
+  }
+  
+  .Os-part2-note{
+    font-size: 12px;
+
+}
+
+.Os-part2-footer{
+  font-size: 10px;
+}
+
+.Os-part2-main{
+  width: 95% !important;
+  
+}
+}
+
+/* our story section */
+.Ostory-main-h4{
+  font-family: gilroy-Semibold;
+   color: #F64B4B;
+   font-size: 13px;
+   font-weight: 700;
+
+}
+
+.Ostory-main-note{
+  font-family: gilroy-Semibold;
+   color: #161C2D;
+   font-size: 36px;
+   font-weight: 700;
+   max-width: 515px;
+}
+
+.Ostory-img-note{
+   font-family: gilroy-regular;
+   color: #161C2D;
+   font-size: 17px;
+   font-weight: 400;
+   max-width: 390px;
+   opacity: 75%;
+
+}
+
+.Ostory-footer-h3{
+   font-family: gilroy-bold;
+   color: #161C2D;
+   font-size: 48px;
+   font-weight: 700;
+}
+
+.Ostory-footer-note{
+   font-family: gilroy-regular;
+   color: #161C2D;
+   font-size: 19px;
+   font-weight: 400;
+}
+
+.oserdot-style{
+  position: absolute;
+  top: 19%;
+  left: 69%;
+  width: 11%;
+
+}
+
+.osdot-style{
+  position: absolute;
+  top: 60%;
+  left: 77%;
+  width: 15%;
+  z-index: -10000;
+}
+
+@media (max-width: 768px) { 
+  .Ostory-main-note{
+    font-size: 16px;
+   
+  }
+}
+
+/* choose us section and case studies section and footer section*/
+
+.cu-main{
+  background-color: #F4F7FA;
+}
+
+.cu-h4, .cs-h3{
+    color: #F64B4B;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: gilroy-bold;
+}
+
+.chooseUs-p , .cs-h2{
+    font-family: gilroy-bold;
+    color: #161C2D;
+    font-size: 36px;
+    font-weight: 700;
+    max-width: 521px;
+
+
+}
+
+.cu-h2, .rtl-h3, .foot-main-h3{
+  font-size: 21px;
+    font-weight: 700;
+   font-family:  gilroy-bold;
+   color: #161C2D;
+}
+
+.cu-note, .rtl-note .foot-main-note{
+  font-size: 17px;
+    font-weight: 400;
+   font-family:  gilroy-regular;
+   color: #161C2D;
+}
+
+.rtl-h3{
+    font-size: 32px !important;
+}
+.rtl-note{
+    font-size: 19px !important;
+   
+}
+
+.WcuDot-style{
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 7%;
+}
+
+
+@media (max-width: 768px) { 
+  .chooseUs-p, .cs-h2{
+    font-size: 28px;
+  }
+  .cu-btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+  }
+   .cu-btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+  }
+
+}
+@media (max-width: 556px) { 
+   .cs-h2{
+    font-size: 20px;
+  }
+
+}
+
+
+/* case studies section */
+.fig-span{
+  color: #161C2D;
+ font-size: 15px;
+    font-weight: 400;
+   font-family:  gilroy-regular;
+   opacity: 70%;
+}
+
+.figcap-main{
+  color: #161C2D;
+ font-size: 24px;
+    font-weight: 700;
+   font-family:  gilroy-bold;
+}
+
+/* Testimonal */
+.tes-h2{
+  margin-top: 4rem !important;
+  padding-top: 6rem !important;
+ color: #68D585;
+ font-size: 13px;
+    font-weight: 700;
+   font-family:  gilroy-regular;
+
+}
+
+.tes-note {
+  color: white;
+ font-size: 32px;
+    font-weight: 700;
+   font-family:  gilroy-Semibold;
+   max-width: 655px;
+}
+
+.tes-bg{
+   background-image: url('./assets/images/tes-bg.png');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.tes-pfp-name, .tes-pfp-span{
+  font-size: 17px !important;
+  color: white;
+   font-weight: 700;
+   font-family:  gilroy-bold;
+
+}
+.tes-pfp-span{
+  font-size: 15px !important;
+  opacity: 65%;
+}
+
+@media (max-width: 768px) { 
+  .tes-note{
+    font-size: 20px;
+  }
+
+}
+
+/* footers section */
+.footer-main-box{
+  background-color: #161C2D;
+}
+.foot-h2{
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: gilroy-bold;
+
+}
+
+.foot-h2-note, .foot-li-h3, .foot-li{
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: gilroy-regular;
+ 
+  opacity: 65%;
+}
+
+.foot-li-h3{
+  max-width: none !important;
+}
+.foot-li{
+  font-size: 17px !important; 
+  opacity: 100% !important;
+}
+
+.foot-main-h3{
+  color: white !important;
+}
+.foot-main-note{
+  color: white !important; 
+  opacity: 65% !important;
+}
+
+.foot-hr{
+  color: white;
+}
+
+.footerSocial{
+  width:35%;
+}
+
+@media (min-width: 1024px){
+  .footerSocial{
+    width: 50% !important;
+  }
+}
