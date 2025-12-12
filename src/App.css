@@ -124,18 +124,6 @@
    font-weight: 700;
 }
 
-.Os-box1{
-    background-color: #68D585;
-   
-}
-.Os-box2{
-    background-color: #473BF0;
- 
-}
-.Os-box3{
-    background-color: #F64B4B;
-    
-}
 
 
 .Os-h3{
@@ -188,7 +176,7 @@ hr{
 
 
 @media (min-width: 1000px) { 
-  .Os-box1, .Os-box2, .Os-box3  {
+  .Os-box{
      width: 30% !important;
      justify-content: center;
   }
@@ -203,7 +191,7 @@ hr{
     width: 90% !important;
   }
   
-  .Os-box1, .Os-box2, .Os-box3 {
+  .Os-box1{
     width: 100% !important; 
   }
   

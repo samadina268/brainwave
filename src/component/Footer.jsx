@@ -1,6 +1,9 @@
 import FooterSocial from "../assets/images/footerSocial.png";
+import { useState } from "react";
 
 const Footer = () => {
+  const [clickBtn , setClickBtn] = useState("Get started a project")
+
   return (
     <div className="footer-main-box">
       <div className="row pt-5 pt mx-auto w-75 justify-content-between d-flex align-items-center">
@@ -14,9 +17,9 @@ const Footer = () => {
         <div className="col-12 col-lg-4 mt-4 mt-lg-0">
           <button
             className="btn cu-btn btn-outline-success nav-btn "
-            type="submit"
+            type="submit" onClick={() => setClickBtn("project started")}
           >
-            Get started a project
+            {clickBtn} 
           </button>
         </div>
       </div>

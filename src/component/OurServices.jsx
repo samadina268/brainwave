@@ -4,56 +4,67 @@ import Os3 from "../assets/images/Os3.png"
 import pfp from "../assets/images/Os-part2-pfp.png"
 import star from "../assets/images/Os-part2-star.png"
 import OsDot from "../assets/images/0s-bot.png"
+import { useEffect, useState } from "react"
 
 
 const OurServices = () => {
+
+  const [osCard, setosCard] = useState([
+    {
+      id: 1,
+    headline: "GraphicDesign",
+    img: Os1,
+    note: "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
+    bgColor: "#68D585",
+    },
+
+    {
+      id: 2,
+    headline: "GraphicDesign",
+    img: Os2,
+    note: "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
+     bgColor: "#473BF0",
+    },
+
+    {
+      id: 3,
+    headline: "GraphicDesign",
+    img: Os3,
+    note: "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
+     bgColor: "#F64B4B",
+    }
+
+  ])
+ 
+
   return (
+    
     <div className="position-relative">
+
+   
+      
       {/* part 1 */}
       <div>
         <h4 className="w-75 mt-3 pt-4 text-uppercase text-center mx-auto Os-headline">our services</h4>
         <h1 className="w-75 Os-h1 text-center mx-auto">We provide great services for our customers based on needs</h1>
 
         <div className="row w-75 mx-auto Os-main-box justify-content-lg-between mt-3 pt-5 px-5 pe-lg-0 ps-lg-0 ">
-
-            <div className="Os-box1 col-12 col-sm-12 col-md-12  rounded-3  text-center col-lg-4">
+          {osCard.map(eachItems =>{
+            return   <div key={eachItems.id} className=" Os-box col-12 col-sm-12 col-md-12  rounded-3  text-center col-lg-4 mt-5 mt-lg-0 pt-5 pt-lg-0" style={{backgroundColor: eachItems.bgColor}}>
                 <div className="d-block mx-auto pt-5 pb-4 ps-4 pe-4">
-                    <img src={Os1} alt="Os1 image"  loading="lazy" className="w-50 "/>
+                    <img src={eachItems.img} alt="Os1 image"  loading="lazy" className="w-50 "/>
 
                 </div>    
-                    <h3 className="Os-h3 mt-4">Graphic Design</h3>
-                    <p className="Os-note mt-4">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
+                    <h3 className="Os-h3 mt-4">{eachItems.headline}</h3>
+                    <p className="Os-note mt-4">{eachItems.note}</p>
                     <a href="#" className="mt-4 d-block text-decoration-none Os-a">Learn more <span className="ps-3">➞</span> </a> <br /><br />
 
                 
-            </div>
+            </div> 
+          })}
 
+          
 
-            <div className="Os-box2 col-12 col-sm-12 col-md-12  rounded-3  text-center mt-5 mt-lg-0 pt-5 pt-lg-0 col-lg-4">
-                <div className="d-block mx-auto pt-5 pb-4 ps-4 pe-4">
-                    <img src={Os2} alt="Os1 image"  loading="lazy" className="w-50 "/>
-
-                </div>    
-                    <h3 className="Os-h3 mt-4">Graphic Design</h3>
-                    <p className="Os-note mt-4">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
-                    <a href="#" className="mt-4 d-block text-decoration-none Os-a">Learn more <span className="ps-3">➞</span> </a> <br /><br />
-
-                
-            </div>
-
-            
-            <div className="Os-box3 col-12 col-sm-12 col-md-12 rounded-3  text-center mt-5 mt-lg-0 pt-5 pt-lg-0 col-lg-4">
-                <div className="d-block mx-auto pt-5 pb-4 ps-4 pe-4">
-                    <img src={Os3} alt="Os1 image"  loading="lazy" className="w-50 "/>
-
-                </div>    
-                    <h3 className="Os-h3 mt-4">Graphic Design</h3>
-                    <p className="Os-note mt-4">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
-                    <a href="#" className="mt-4 d-block text-decoration-none Os-a">Learn more <span className="ps-3">➞</span> </a> <br /><br />
-
-                
-            </div>
-           
         </div>
 
 

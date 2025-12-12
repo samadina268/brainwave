@@ -3,8 +3,12 @@ import EfIcon from "../assets/images/ef-icon.png"
 import OtIcon from "../assets/images/ot-icon.png"
 import NsIcon from "../assets/images/ns-icon.png"
 import WcuDot from "../assets/images/wcu-dot.png"
+import { useState } from "react"
 
 const ChooseUs = () => {
+
+    const [onClickBtn, setonClickBtn] = useState("Get started a project ")
+
   return (
     <div className="cu-main position-relative">
       
@@ -72,8 +76,8 @@ const ChooseUs = () => {
                 <p className="rtl-note">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
             </div>
             <div className="col-12 col-lg-4 mt-4 mt-lg-0">
-                <button className="btn btn-outline-success nav-btn mt-2 cu-btn" type="submit">
-               Get started a project 
+                <button onClick={() => setonClickBtn("Project Started")} className="btn btn-outline-success nav-btn mt-2 cu-btn" type="submit">
+               {onClickBtn}
               </button>
             </div>
         </div>
