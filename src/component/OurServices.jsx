@@ -3,14 +3,14 @@ import Os2 from "../assets/images/Os2.png"
 import Os3 from "../assets/images/Os3.png"
 import pfp from "../assets/images/Os-Part2-pfp.png"
 import star from "../assets/images/Os-part2-star.png"
-import OsDot from "../assets/images/Os-bot.png"
+import OsDot from "../assets/images/os-bot.png"
 import { useState } from "react"
 
 
 const OurServices = () => {
 
   const [osCard, setosCard] = useState([
-    {
+    setosCard({
       id: 1,
     headline: "GraphicDesign",
     img: Os1,
@@ -32,7 +32,7 @@ const OurServices = () => {
     img: Os3,
     note: "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
      bgColor: "#F64B4B",
-    }
+    })
 
   ])
  

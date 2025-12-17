@@ -9,9 +9,10 @@ import CaseStudies from "./component/CaseStudies.jsx"
 import Testimonial from "./component/Testimonial.jsx";
 import Footer from "./component/Footer.jsx";
 import Allcontext from "./Context/AllContext.jsx";
-import { useState } from "react";
+
 
 function App() {
+  
   // const [user, setUser] = useState({
   //   id: 1,
   //   userName: "abubakar",
