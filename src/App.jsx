@@ -10,7 +10,7 @@ import Testimonial from "./component/Testimonial.jsx";
 import Footer from "./component/Footer.jsx";
 import Allcontext from "./Context/AllContext.jsx";
 import { useState } from "react";
-g
+
 function App() {
   // const [user, setUser] = useState({
   //   id: 1,
