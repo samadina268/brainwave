@@ -1,9 +1,9 @@
 import Os1 from "../assets/images/Os1.png"
 import Os2 from "../assets/images/Os2.png"
 import Os3 from "../assets/images/Os3.png"
-import pfp from "../assets/images/Os-part2-pfp.png"
+import pfp from "../assets/images/Os-Part2-pfp.png"
 import star from "../assets/images/Os-part2-star.png"
-import OsDot from "../assets/images/0s-bot.png"
+import OsDot from "../assets/images/Os-bot.png"
 import { useState } from "react"
 
 
