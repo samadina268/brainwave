@@ -10,7 +10,7 @@ import { useState } from "react"
 const OurServices = () => {
 
   const [osCard, setosCard] = useState([
-    setosCard({
+    {
       id: 1,
     headline: "GraphicDesign",
     img: Os1,
@@ -32,7 +32,7 @@ const OurServices = () => {
     img: Os3,
     note: "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
      bgColor: "#F64B4B",
-    })
+    }
 
   ])
  
