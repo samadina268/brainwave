@@ -9,47 +9,20 @@ import CaseStudies from "./component/CaseStudies.jsx"
 import Testimonial from "./component/Testimonial.jsx";
 import Footer from "./component/Footer.jsx";
 import Allcontext from "./Context/AllContext.jsx";
+import Home from "./component/home.jsx"
 
 
 function App() {
   
-  // const [user, setUser] = useState({
-  //   id: 1,
-  //   userName: "abubakar",
-  //   email: "abubakar23@gmail.com",
-
-  // })
-
-  // const [theme, setTheme] = useState("light")
-
-  
-
- 
 
   return (
-    <Allcontext.Provider>
-
-        <div>
-
-      <div className="land-Bg">
-        <BrowserRouter>
-     <Routes>
-      <Route path="/header" element={<header/>}/>
-     </Routes>
-    </BrowserRouter>
     
-    <Hero/>
-      </div>
-
-    <OurServices/>
-    <OurStory/>
-    <ChooseUs/>
-    <CaseStudies/>
-    <Testimonial/>
-    <Footer/>
+        <div> 
+     <Routes>
+      <Route path="/" element={<Home/>}/>
+     </Routes>
     </div>
-    </Allcontext.Provider>
-   
+  
   );
 }
 
