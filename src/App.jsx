@@ -33,7 +33,9 @@ function App() {
 
       <div className="land-Bg">
         <BrowserRouter>
-      <Header />
+     <Routes>
+      <Route path="/header" element={<header/>}/>
+     </Routes>
     </BrowserRouter>
     
     <Hero/>
