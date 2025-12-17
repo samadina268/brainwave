@@ -1,6 +1,6 @@
-import Oser1 from "../assets/images/Oser-img-1.png"
-import Oser2 from "../assets/images/Oser-img-2.png"
-import Oser3 from "../assets/images/Oser-img-3.png"
+import Oser1 from "../assets/images/oser-img-1.png"
+import Oser2 from "../assets/images/oser-img-2.png"
+import Oser3 from "../assets/images/oser-img-3.png"
 import OserDot from "../assets/images/Oser-dot.png"
 
 const OurStory = () => {
