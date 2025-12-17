@@ -4,7 +4,7 @@ import Os3 from "../assets/images/Os3.png"
 import pfp from "../assets/images/Os-part2-pfp.png"
 import star from "../assets/images/Os-part2-star.png"
 import OsDot from "../assets/images/0s-bot.png"
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 
 const OurServices = () => {
