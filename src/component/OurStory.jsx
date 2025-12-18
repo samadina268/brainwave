@@ -5,7 +5,7 @@ import OserDot from "../assets/images/Oser-dot.png"
 
 const OurStory = () => {
   return (
-    <div className="w-75 mx-auto position-relative">
+    <div className="w-75 mx-auto position-relative" id="ourStory">
       <div>
        
         <h4 className="Ostory-main-h4 text-uppercase mt-5">Our story</h4>

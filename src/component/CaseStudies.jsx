@@ -5,7 +5,7 @@ import GWImg from "../assets/images/gw-img.png"
 
 const CaseStudies = () => {
   return (
-    <div>
+    <div id="caseStudies">
         <h3 className="mx-auto mt-5 text-center cs-h3">Case Studies</h3>
         <h2 className="mx-auto mt-4 w-75 text-center cs-h2">Our works describe why we are the best in the business</h2>
 

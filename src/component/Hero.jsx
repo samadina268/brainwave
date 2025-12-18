@@ -16,7 +16,7 @@ const Hero = () => {
   // const {user} = useContext(Allcontext)
 
   return (
-    <div>
+    <div id="hero">
         <div className="row w-75 mx-auto ps-5 pe-5 mt-5 pt-3 hero-main ">
             <div className="col-12 col-md-12 col-lg-7">
                 <p className="text-uppercase hero-heading">Let’s shift your business</p>

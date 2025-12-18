@@ -5,7 +5,7 @@ const Footer = () => {
   const [clickBtn , setClickBtn] = useState("Get started a project")
 
   return (
-    <div className="footer-main-box">
+    <div className="footer-main-box" id="footer">
       <div className="row pt-5 pt mx-auto w-75 justify-content-between d-flex align-items-center">
         <div className="col-12 col-lg-7 mt-3">
           <h3 className="foot-main-h3">Ready to launch your next project?</h3>

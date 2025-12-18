@@ -26,24 +26,24 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarScroll">
             <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
               <li className="nav-item">
-                <Link className="nav-link nav-list" to="#">
+                <a className="nav-link nav-list" href="#hero">
                   Demos
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link nav-list" to="#">
+                <a className="nav-link nav-list" href="#ourStory">
                   Pages
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link nav-list" to="#">
+                <a className="nav-link nav-list" href="#caseStudies">
                   Support
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link nav-list" to="#">
+                <a className="nav-link nav-list" href="#footer">
                   contact
-                </Link>
+                </a>
               </li>
             </ul>
 
